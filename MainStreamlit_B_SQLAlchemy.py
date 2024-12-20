@@ -101,9 +101,8 @@ if st.sidebar.button("Prediksi"):
     else:
         st.sidebar.error("Silahkan unggah setidaknya satu gambar untuk diprediksi")
 
-# Menampilkan preview gambar
 if uploaded_files:
     st.write("### Preview Gambar")
     for uploaded_file in uploaded_files:
         image = Image.open(uploaded_file)
-        st.image(image, caption=f"{uploaded_file.name}", use_column_width=True)
+        st.image(image, caption=f"{uploaded_file.name}", use_container_width =True)
