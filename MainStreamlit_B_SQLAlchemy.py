@@ -78,7 +78,7 @@ st.markdown(
 )
 
 st.title("Prediksi Jenis Jamur: Enoki, Kancing, dan Kuping ")
-st.write("Unggah Gambar (Beberapa diperbolehkan) dan pastikan gambar sudah terupload merupakan jamur enoki/kancing/kuping, dan jika terjadi kesalahan refresh saja halamannya. terima kasih.")
+st.write("Unggah Gambar (Beberapa diperbolehkan). terima kasih.")
 
 uploaded_files = st.file_uploader("Unggah Gambar Jamur Anda (jpg, png, jpeg)", type=["jpg", "png", "jpeg"], accept_multiple_files=True)
 
