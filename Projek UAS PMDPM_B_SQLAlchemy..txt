@@ -1,0 +1,2 @@
+Link Github--> https://github.com/Ryounawan/Projek-UAS-PMDPM_B_SQLAlchemy
+Link Streamlit--> https://projek-uas-pmdpmbsqlalchemy-2jhyugwe6a6bvqxzsnwjxp.streamlit.app/
